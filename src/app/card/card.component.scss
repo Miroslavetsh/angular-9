@@ -1,0 +1,34 @@
+.card {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px dashed #ccc;
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  .buttons {
+    margin-bottom: 0.5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+    &.red {
+      color: #f00;
+    }
+    &.green {
+      color: #0f0;
+    }
+    &.blue {
+      color: #00f;
+    }
+  }
+}
+button {
+  &.red {
+    background-color: #f00;
+  }
+  &.green {
+    background-color: #0f0;
+  }
+  &.blue {
+    background-color: #00f;
+  }
+}
